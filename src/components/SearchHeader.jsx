@@ -30,7 +30,7 @@ const SearchHeader = () => {
                     <Link to="/">
                         <img src={Logo} alt="" />
                     </Link>
-                    <SearchInput query={query} />
+                    <SearchInput query={query} />\
                 </div>
                 <ul className="search-menu">
                     {menu.map((menuItem, index) => (
